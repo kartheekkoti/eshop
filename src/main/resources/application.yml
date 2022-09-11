@@ -1,0 +1,12 @@
+server:
+  port: 2727
+
+spring:
+  data:
+    mongodb:
+      database: eshop
+      uri: mongodb+srv://eshop:eshop@cluster0.dhhn6ez.mongodb.net/?retryWrites=true&w=majority
+
+
+jwt:
+  secret: secretkey123
